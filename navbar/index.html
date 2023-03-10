@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            
+        }
+        .header{
+            background-color: gainsboro;
+            padding: 25px;
+            text-align: center;
+        }
+        .nav{
+            background-color: rgb(37, 37, 37);
+            overflow: hidden;
+        }
+        .nav a{
+            padding: 15px 17px;
+            color: white;
+            text-decoration: none;
+            float: left;
+              
+        }
+        .nav a:hover{
+         background-color: grey;
+        }
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+    }
+        .column{
+            float: left;
+            padding: 15px;
+        }
+        .column.side{
+            width: 25%;
+         }
+         .column.main{
+            width: 50%;
+         }
+         footer{
+            background-color: gainsboro;
+            text-align: center;
+            padding: 15px 10px;
+         }
+       @media screen and (max-width:600px) 
+       {
+        .column.side{
+            width: 100%;
+        }
+        .column.main{
+            width: 100%;
+        }
+       }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Header</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> 
+    </div>
+    <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="row">
+        <div class="column side">
+            <h2>Side</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos libero doloribus, sed, ratione ipsam assumenda aliquam ea nulla reiciendis quisquam aut error dolores dicta ipsum non, obcaecati distinctio! Doloribus, tempora.</p>
+        </div>
+        <div class="column main">
+            <h2>Main Content</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat magni ipsa tempore ullam at iure totam omnis repudiandae dolore vel laudantium cum quia blanditiis, amet recusandae? Exercitationem nam similique hic. Veritatis accusantium totam, rem inventore perferendis cum modi, quibusdam expedita libero assumenda consequuntur quidem dolore magni facilis vitae id veniam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid placeat ad autem fugiat eaque dolorum soluta molestias, laborum, asperiores eveniet officiis at. Harum, qui? Odio?</p>
+        </div>
+        <div class="column side">
+            <h2>Side</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit sequi numquam pariatur, quas accusamus tenetur.</p>
+        </div>
+    </div>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>

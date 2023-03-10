@@ -1,0 +1,56 @@
+body{
+    background: url("kofe.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-size: 70px;
+}
+
+ h1,h2,p{
+        text-align: center;
+        
+}
+.let{
+      padding-left:50px ;
+      font-size: 20px;
+
+}
+ div{
+    float: left;
+
+}
+         
+ .dark{
+    color: #ebd3b7;
+    width:auto;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+    }
+ .arabica{
+    color: #f5dab9;
+    background: rgb(34, 4,0,0.6);
+    width: 30%;
+    border: 1px solid rgb(34, 4,0,0.2) ;
+    margin-right: 5px;
+    margin-left: 50px;
+    
+}
+   .robusta{
+    color: #f5dab9;
+    background:  rgb(34, 4,0,0.6);
+    width: 30%;
+    border: 1px solid rgb(34, 4,0,0.2) ;
+    margin-right: 5px;
+    
+    }
+ .liberica{
+    color: #f5dab9;
+    background: rgb(34, 4,0,0.6);
+    width: 30%;
+    border: 1px solid rgb(34, 4,0,0.2) ;
+    }
